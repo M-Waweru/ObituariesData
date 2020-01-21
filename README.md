@@ -8,7 +8,7 @@ The notebook in this project can be used in both Jupyter Notebook on Anaconda an
 
 ## Kaplan-Meier Survival Analysis
 
-The first objective was coming up with a Kaplan-Meier survival curve using various variables. Below is an exmaple using the deceased's gender to determine the survival probabilities of each gender.
+The first objective was coming up with a Kaplan-Meier survival curve using various variables. Below is an example using the deceased's gender to determine the survival probabilities of each gender.
 
 ### Survival Curve for Gender
 
@@ -16,12 +16,25 @@ The first objective was coming up with a Kaplan-Meier survival curve using vario
 
 From the graph above, we can observe that the survival rate of individuals, whose obituaries asked for fundraising, was lower than those who did not ask explicitly. This is especially evident for adults from the youth and gets worse for middle-aged adults. This may be due to poor financial planning when it comes to the event of death. Most people do not account for this and most families or involved members must fundraise to cover costs of burial, upkeep of the household and even to pay debts.
 
+**Recommendation**: Life insurance products such as term-life insurance can be marketed to adults, especially young professionals. Marketing strategies can be used to convince young people to relieve the burden of debts and other expenses from their family members after passing on.
+
 ## Model to predict those who need fundraising
 
-The second objective is to create and train a model that can predict who needs fundraising based on the dataset provided. This will also inform us on who needs life insurance the most.
+The second objective is to create and train a model that can predict who needs fundraising, based on the dataset provided. This will also inform us on which kind of person needs life insurance the most.
 
 ### Algorithms used
-Since this is a classification problem, all the algorithms used are classifiers. The top two models are:
+Since this is a classification problem, all the algorithms used are classifiers. 
+
+The performance of a model will be based on the following:
+1. Accuracy
+
+2. Confusion matrix
+
+3. Sensitivity - recall for positive category
+
+4. Specificity - recall for negative category
+
+The top two models are:
 
 <!-- #### Decision Trees
 
@@ -39,7 +52,7 @@ This model has a high accuracy level and sensitivity level. However, the specifi
 
 ![Random Forest Confusion Matrix](images/rf_cm.PNG)
 
-The model can predict those who need fundraising, better than those who do not need it. There is also a high number of False Positives, meaning that it predicts that someone needs fundraising when they didn't ask for it or need it.
+The model can predict those who need fundraising better than those who do not need it. There is also a high number of False Positives, meaning that it predicts that someone needs fundraising when they didn't ask for it or don't need it.
 
 <!-- #### XGBoost
 
