@@ -12,7 +12,7 @@ The first objective was coming up with a Kaplan-Meier survival curve using vario
 
 ### Survival Curve for Gender
 
-![Image of Survival Curve Gender](images/scfunding.png)
+![Image of Survival Curve Gender](images/scfunding.PNG)
 
 From the graph above, we can observe that the survival rate of individuals, whose obituaries asked for fundraising, was lower than those who did not ask explicitly. This is especially evident for adults from the youth and gets worse for middle-aged adults. This may be due to poor financial planning when it comes to the event of death. Most people do not account for this and most families or involved members must fundraise to cover costs of burial, upkeep of the household and even to pay debts.
 
@@ -25,9 +25,9 @@ Since this is a classification problem, all the algorithms used are classifiers.
 
 #### Decision Trees
 
-![Decision Tree classification report](images/dt_report.png)
+![Decision Tree classification report](images/dt_report.PNG)
 
-![Decision Tree Confusion Matrix](images/dt_cm.png)
+![Decision Tree Confusion Matrix](images/dt_cm.PNG)
 
 <!-- #### Random Forest 
 
