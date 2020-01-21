@@ -21,34 +21,46 @@ From the graph above, we can observe that the survival rate of individuals, whos
 The second objective is to create and train a model that can predict who needs fundraising based on the dataset provided. This will also inform us on who needs life insurance the most.
 
 ### Algorithms used
-Since this is a classification problem, all the algorithms used are classifiers.
+Since this is a classification problem, all the algorithms used are classifiers. The top two models are:
 
-#### Decision Trees
+<!-- #### Decision Trees
 
 ![Decision Tree Classification Report](images/dt_report.PNG)
 
-![Decision Tree Confusion Matrix](images/dt_cm.PNG)
+![Decision Tree Confusion Matrix](images/dt_cm.PNG) -->
 
 #### Random Forest 
 
+First, we will look at how ensembling alogorithms will perform for this problem.
+
 ![Random Forest Classification Report](images/rf_report.PNG)
+
+This model has a high accuracy level and sensitivity level. However, the specificity is low and can be improved.
 
 ![Random Forest Confusion Matrix](images/rf_cm.PNG)
 
-#### XGBoost
+The model can predict those who need fundraising, better than those who do not need it. There is also a high number of False Positives, meaning that it predicts that someone needs fundraising when they didn't ask for it or need it.
+
+<!-- #### XGBoost
 
 ![XGBoost Classification Report](images/xgbreport.PNG)
 
-![XGBoost Confusion Matrix](images/xgb_cm.PNG)
+![XGBoost Confusion Matrix](images/xgb_cm.PNG) -->
 
 #### CATBoost
 
+This is a gradient-boosting algorithm with all the hype around it. Let's see what it can do.
+
 ![CATBoost Classification Report](images/catb_report.PNG)
+
+The accuracy and specificity are lower than Random Forest. However, the sensitivity is higher. 
 
 ![CATBoost Confusion Matrix](images/catb_cm.PNG)
 
+The model, also predicts those who need fundraising, better than those who don't. It also has a higher number of False Positives, compared to Random Forest
+
 ## Conclusion
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Random Forest, in this case, is the better model for the job from my analysis.
+* However, we can still improve the model by engaging in a more extensive and thorough feature engineering and hyperparameter tuning.
+* The data was riddled with a lot of null values for valuable information like age, number of children .etc. Therefore, the data gathering and engineering processes much be improved to get better insights from the data
