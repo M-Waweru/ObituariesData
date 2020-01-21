@@ -25,21 +25,27 @@ Since this is a classification problem, all the algorithms used are classifiers.
 
 #### Decision Trees
 
-![Decision Tree classification report](images/dt_report.PNG)
+![Decision Tree Classification Report](images/dt_report.PNG)
 
 ![Decision Tree Confusion Matrix](images/dt_cm.PNG)
 
-<!-- #### Random Forest 
+#### Random Forest 
 
-![Image of Survival Curve Gender](images/scfunding.png)
+![Random Forest Classification Report](images/rf_report.PNG)
+
+![Random Forest Confusion Matrix](images/rf_cm.PNG)
 
 #### XGBoost
 
-![Image of Survival Curve Gender](images/scfunding.png)
+![XGBoost Classification Report](images/xgbreport.PNG)
+
+![XGBoost Confusion Matrix](images/xgb_cm.PNG)
 
 #### CATBoost
 
-![Image of Survival Curve Gender](images/scfunding.png) -->
+![CATBoost Classification Report](images/catb_report.PNG)
+
+![CATBoost Confusion Matrix](images/catb_cm.PNG)
 
 ## Conclusion
 
