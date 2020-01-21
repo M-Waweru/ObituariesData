@@ -76,4 +76,4 @@ The model, also predicts those who need fundraising, better than those who don't
 
 * Random Forest, in this case, is the better model for the job from my analysis.
 * However, we can still improve the model by engaging in a more extensive and thorough feature engineering and hyperparameter tuning.
-* The data was riddled with a lot of null values for valuable information like age, number of children .etc. Therefore, the data gathering and engineering processes much be improved to get better insights from the data
+* The data was riddled with a lot of null values for valuable information like age, number of children .etc. Therefore, the data gathering and engineering processes must be improved to get better insights from the data
